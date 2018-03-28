@@ -1,0 +1,2 @@
+# multiChoiceBot
+ChoiceBot for Slack.
