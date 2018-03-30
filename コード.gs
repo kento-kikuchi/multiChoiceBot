@@ -57,12 +57,13 @@ function pre_choice(text, me, channel) {
     break;
   }
   
+  return members;
   //重複を除外する
-  var members_uniq = members.filter(function(elements, index, selfArr) {
-    return selfArr.indexOf(elements) === index;
-  });
+  //var members_uniq = members.filter(function(elements, index, selfArr) {
+  //  return selfArr.indexOf(elements) === index;
+  //});
 
-  return members_uniq;
+  //return members_uniq;
 
 }
 
